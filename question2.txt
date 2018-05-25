@@ -1,0 +1,16 @@
+l = int(input("enter the length"))
+b = int(input("enter the breadth"))
+if l==b:
+    print("it is a square")
+else:
+    print("it is a rectangle")
+
+OUTPUT
+
+enter the length10
+enter the breadth10
+it is a square
+
+enter the length10
+enter the breadth20
+it is a rectangle

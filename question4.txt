@@ -1,0 +1,29 @@
+age = int(input("enter the age"))
+sex = input("enter in M or F")
+marital = input("enter your marital status in Y or N")
+
+if(sex=='F'):
+    print("She will work only in urban areas")
+elif(sex=='M' and 20<age<40):
+    print("He can work anywhere")
+elif(sex=='M' and 40<age<60):
+    print("He will work only in urban areas")
+else:
+    print("Error")
+
+OUTPUT
+
+enter the age30
+enter in M or FM
+enter your marital status in Y or NY
+He can work anywhere
+
+enter the age45
+enter in M or FM
+enter your marital status in Y or NY
+He will work only in urban areas
+
+enter the age30
+enter in M or FF
+enter your marital status in Y or NY
+She will work only in urban areas
